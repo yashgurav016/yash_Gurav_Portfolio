@@ -1,0 +1,576 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport"content="width=device-width, initial-scale=1, viewport-fit=cover"/>
+    <meta name="description"content="Yash Balasaheb Gurav - Computer Science Engineering Student Portfolio"/>
+    <meta name="theme-color" content="#040b1c" />
+    <meta property="og:title" content="Yash Gurav | Portfolio" />
+    <meta
+      property="og:description"
+      content="Third-year Computer Science Engineering student focused on Python, web development and AI."/>
+    <meta property="og:image" content="images/photo.jpg" />
+    <link rel="icon"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23081a3a'/%3E%3Ctext x='32' y='42' font-size='28' font-weight='800' text-anchor='middle' fill='%235ee1ff' font-family='Arial'%3EYG%3C/text%3E%3C/svg%3E"/>
+    <script>
+      document.documentElement.classList.add("js");
+      document.documentElement.dataset.theme = "dark";
+    </script>
+    <title>Yash Gurav | Portfolio</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Unbounded:wght@700;800&family=Orbitron:wght@600;800;900&family=Sora:wght@300;400;600;700&family=JetBrains+Mono:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="aurora"><i></i><i></i><i></i></div>
+    <canvas id="fx"></canvas>
+    <div id="glow"></div>
+    <div id="start">
+      <div class="mark">YG</div>
+      <h1 class="orb" style="font-size: 1.3rem">Yash Gurav · Portfolio</h1>
+      <p class="mono" style="color: var(--mut); font-size: 0.8rem">
+        Computer Science Student
+      </p>
+      <button id="go">PRESS START</button>
+    </div>
+
+    <header class="nav">
+      <div class="nav-in">
+        <a href="#home" class="logo">Portfolio</a>
+        <nav id="menu">
+          <a href="#home">Home</a><a href="#about">About</a
+          ><a href="#skills">Skills</a><a href="#projects">Projects</a
+          ><a href="#education">Education</a><a href="#certs">Certificate</a
+          ><a href="#contact">Contact</a>
+        </nav>
+        <div class="ctl">
+          <button
+            class="tg"
+            id="tg"
+            type="button"
+            role="switch"
+            aria-checked="false"
+            aria-label="Switch to light mode"
+            title="Switch theme"
+          >
+            <span class="tk"
+              ><i class="st"></i><i class="cl"></i
+              ><span class="kn"><b></b><b></b><b></b></span
+            ></span></button
+          ><button class="mb" id="mb" aria-label="Open menu">☰</button>
+        </div>
+      </div>
+      <div id="bar"></div>
+    </header>
+
+    <main>
+      <section class="sec hero" id="home">
+        <div class="rv">
+          <p class="hi mono">&lt; HELLO WORLD, I'M /&gt;</p>
+          <h1 class="name">
+            <span>Yash</span><span>Balasaheb</span><span>Gurav</span>
+          </h1>
+          <div class="uline"></div>
+          <p class="role"><span id="ty"></span><span class="cur">▌</span></p>
+          <p class="ht">
+            Third-year Computer Science Engineering student from Baramati,
+            focused on Python development, practical projects and building a
+            strong foundation for AI and full-stack development.
+          </p>
+          <div class="btns">
+            <a href="#projects" class="btn p"
+              ><svg
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <rect x="3" y="3" width="7" height="7" rx="1" />
+                <rect x="14" y="3" width="7" height="7" rx="1" />
+                <rect x="3" y="14" width="7" height="7" rx="1" />
+                <rect x="14" y="14" width="7" height="7" rx="1" /></svg
+              >View Projects</a
+            ><a
+              href="Yash_Gurav_Resume.pdf"
+              target="_blank"
+              rel="noopener"
+              class="btn p"
+              data-rv="view"
+              ><svg
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z" />
+                <circle cx="12" cy="12" r="3" /></svg
+              >View Resume</a
+            >
+          </div>
+          <div class="soc">
+            <a
+              href="https://github.com/yashgurav016"
+              target="_blank"
+              rel="noopener"
+              aria-label="GitHub"
+              ><svg
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path
+                  d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"
+                /></svg></a
+            ><a
+              href="https://www.linkedin.com/in/yash-gurav-892763425"
+              target="_blank"
+              rel="noopener"
+              aria-label="LinkedIn"
+              ><svg
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path
+                  d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6zM2 9h4v12H2z"
+                />
+                <circle cx="4" cy="4" r="2" /></svg></a
+            ><a href="mailto:yashgurav016@gmail.com" aria-label="Email"
+              ><svg
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path
+                  d="M4 4h16a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2z"
+                />
+                <path d="M22 6l-10 7L2 6" /></svg
+            ></a>
+          </div>
+          <div class="stats">
+            <div>
+              <strong data-count="8.73" data-dec="2">8.73</strong
+              ><span>Latest SGPA</span>
+            </div>
+            <div><strong data-count="1">1</strong><span>Projects</span></div>
+            <div>
+              <strong data-count="4">4</strong><span>Certificates</span>
+            </div>
+          </div>
+        </div>
+        <div class="pw rv">
+          <div class="rg"></div>
+          <div class="rg two"></div>
+          <div class="pc">
+            <img
+              src="images/photo.jpg"
+              alt="Yash Balasaheb Gurav"
+              width="800"
+              height="925"
+              fetchpriority="high"
+            />
+          </div>
+          <span class="ft f1 mono">&lt;/&gt;</span
+          ><span class="ft f2 mono">Py</span><span class="ft f3 mono">AI</span
+          ><span class="ft f4 mono">{ }</span>
+        </div>
+      </section>
+
+      <section class="sec" id="about" data-lv="About">
+        <div class="hd rv">
+          <p class="mono">&lt;ABOUT ME /&gt;</p>
+          <h2>A little about <span class="grad">me.</span></h2>
+        </div>
+        <div>
+          <div class="card rv">
+            <h3>Introduction</h3>
+            <p>
+              I am a third-year B.E. Computer Science Engineering student at
+              Sharadchandra Pawar College of Engineering &amp; Technology,
+              Baramati. I enjoy learning through practical coding and projects,
+              and I am strengthening Python, web development and problem-solving
+              fundamentals.
+            </p>
+            <p>
+              My long-term direction is to become a strong software developer
+              with Python and AI integration skills, moving gradually toward
+              full-stack and AI/LLM applications.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="sec" id="skills" data-lv="Skills">
+        <div class="hd rv">
+          <p class="mono">&lt;SKILLS /&gt;</p>
+          <h2><span class="grad">Skills</span></h2>
+        </div>
+        <div class="card cat rv">
+          <h3>// LANGUAGES</h3>
+          <div class="chips">
+            <button class="chip">HTML</button><button class="chip">CSS</button
+            ><button class="chip">JavaScript</button
+            ><button class="chip">TypeScript</button
+            ><button class="chip">Python</button
+            ><button class="chip">Java</button>
+          </div>
+        </div>
+        <div class="g2">
+          <div class="card cat rv">
+            <h3>// FRAMEWORKS</h3>
+            <div class="chips">
+              <button class="chip">Django</button
+              ><button class="chip">Flask</button>
+            </div>
+          </div>
+          <div class="card cat rv">
+            <h3>// DATABASES</h3>
+            <div class="chips">
+              <button class="chip">MySQL</button
+              ><button class="chip">NoSQL</button
+              ><button class="chip">PostgreSQL</button>
+            </div>
+          </div>
+          <div class="card cat rv">
+            <h3>// CLOUD &amp; DEVOPS</h3>
+            <div class="chips">
+              <button class="chip">AWS</button
+              ><button class="chip">AWS EC2</button
+              ><button class="chip">Git</button
+              ><button class="chip">GitHub</button>
+            </div>
+          </div>
+          <div class="card cat rv">
+            <h3>// CORE CONCEPTS</h3>
+            <div class="chips">
+              <button class="chip">Data Structures</button
+              ><button class="chip">Algorithms</button
+              ><button class="chip">OOP</button
+              ><button class="chip">DBMS</button
+              ><button class="chip">Computer Networks</button>
+            </div>
+          </div>
+        </div>
+        <div class="card learn rv">
+          <div>
+            <p class="num mono">CURRENTLY LEARNING</p>
+            <h3 style="margin-top: 4px">Python → Backend → AI Integration</h3>
+          </div>
+          <span class="badge">IN PROGRESS</span>
+        </div>
+      </section>
+
+      <section class="sec" id="projects" data-lv="Projects">
+        <div class="hd rv">
+          <p class="mono">&lt;ARTIFACTS / PROJECTS /&gt;</p>
+          <h2><span class="grad">Projects</span></h2>
+        </div>
+        <article class="card pj rv">
+          <div class="pj-top">
+            <span class="num">PROJECT 01</span
+            ><span class="pj-s mono"
+              >Web Application · Personal Portfolio Project</span
+            >
+          </div>
+          <h3>Smart Campus Management System</h3>
+          <p class="pj-o">
+            A responsive, mobile-first web application that brings everyday
+            college services into one place, so students can manage academics,
+            updates and contacts from a single clean interface.
+          </p>
+          <div class="pj-grid">
+            <div>
+              <h4>// KEY FEATURES</h4>
+              <ul>
+                <li>Login and account section</li>
+                <li>Academic assignment section</li>
+                <li>Notifications and announcements</li>
+                <li>Contacts directory</li>
+                <li>Responsive layout for mobile and desktop</li>
+              </ul>
+            </div>
+            <div>
+              <h4>// TECH STACK</h4>
+              <div class="tech">
+                <span>HTML5</span><span>CSS3</span><span>JavaScript</span
+                ><span>LocalStorage</span>
+              </div>
+              <h4>// WHAT I PRACTICED</h4>
+              <ul>
+                <li>DOM manipulation and event handling</li>
+                <li>Client-side data handling</li>
+                <li>Responsive UI design</li>
+                <li>Structuring a multi-section application</li>
+              </ul>
+              <h4>// ROADMAP</h4>
+              <ul>
+                <li>Backend and database integration</li>
+              </ul>
+            </div>
+          </div>
+          <div class="pj-btns">
+            <a
+              class="btn s"
+              href="https://github.com/yashgurav016"
+              target="_blank"
+              rel="noopener"
+              ><svg
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path
+                  d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"
+                /></svg
+              >View on GitHub</a
+            >
+          </div>
+        </article>
+      </section>
+
+      <section class="sec" id="education" data-lv="Education">
+        <div class="hd rv">
+          <p class="mono">&lt;EDUCATION /&gt;</p>
+          <h2>My academic <span class="grad">journey.</span></h2>
+        </div>
+        <div class="tl">
+          <div class="ti rv">
+            <div class="td"></div>
+            <div class="card">
+              <span class="mono">2024 — 2027</span>
+              <h3 class="grad">B.E. Computer Science Engineering</h3>
+              <p>
+                Sharadchandra Pawar College of Engineering &amp; Technology,
+                Someshwarnagar, Baramati · SPPU
+              </p>
+              <div class="sg">
+                <span>Sem I — 7.73</span><span>Sem II — 8.14</span
+                ><span>Sem III — 8.34</span><span>Sem IV — 8.73</span>
+              </div>
+            </div>
+          </div>
+          <div class="ti rv">
+            <div class="td"></div>
+            <div class="card">
+              <span class="mono">2023</span>
+              <h3>Higher Secondary Certificate — 80.00%</h3>
+              <p>
+                Late Sahebrao Phadtare Junior College of Science, Kalamb,
+                Indapur, Pune
+              </p>
+            </div>
+          </div>
+          <div class="ti rv">
+            <div class="td"></div>
+            <div class="card">
+              <span class="mono">2021</span>
+              <h3>Secondary School Certificate — 74.40%</h3>
+              <p>Shardabai Pawar Vidyaniketan, Sharadanagar, Baramati, Pune</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="sec" id="certs" data-lv="Certifications">
+        <div class="hd rv">
+          <p class="mono">&lt;CERTIFICATES /&gt;</p>
+          <h2><span class="grad">Certificate</span></h2>
+        </div>
+        <div class="cgrid">
+          <button class="flip rv" aria-label="Flip card to see certificate">
+            <span class="fi"
+              ><span class="ff card"
+                ><span class="ic">🎨</span
+                ><b class="ctt">Design Fundamentals with AI – Adobe</b
+                ><span class="is">UNICEF YuWaah · Passport to Earning</span
+                ><span class="mt mono">16 Sep 2026 · Score 62.5%</span
+                ><span class="hn mono">↻ Tap to view certificate</span></span
+              ><span class="fb"
+                ><img
+                  src="images/cert-adobe.jpg"
+                  alt="Design Fundamentals with AI – Adobe certificate" /></span
+            ></span></button
+          ><button class="flip rv" aria-label="Flip card to see certificate">
+            <span class="fi"
+              ><span class="ff card"
+                ><span class="ic">⚡</span
+                ><b class="ctt">Digital Productivity with AI</b
+                ><span class="is">UNICEF YuWaah · Passport to Earning</span
+                ><span class="mt mono">2 Sep 2026 · Score 90%</span
+                ><span class="hn mono">↻ Tap to view certificate</span></span
+              ><span class="fb"
+                ><img
+                  src="images/cert-digital-productivity.jpg"
+                  alt="Digital Productivity with AI certificate" /></span
+            ></span></button
+          ><button class="flip rv" aria-label="Flip card to see certificate">
+            <span class="fi"
+              ><span class="ff card"
+                ><span class="ic">☕</span
+                ><b class="ctt">30 Days Full Stack Java Workshop</b
+                ><span class="is">Aparaitech Software Company</span
+                ><span class="mt mono">2 Apr 2026 · ID APAR260373</span
+                ><span class="hn mono">↻ Tap to view certificate</span></span
+              ><span class="fb"
+                ><img
+                  src="images/cert-java-workshop.jpg"
+                  alt="30 Days Full Stack Java Workshop certificate" /></span
+            ></span></button
+          ><button class="flip rv" aria-label="Flip card to see certificate">
+            <span class="fi"
+              ><span class="ff card"
+                ><span class="ic">🐍</span
+                ><b class="ctt">Python Using AI Workshop</b
+                ><span class="is">AI for Techies</span
+                ><span class="mt mono">23 Aug 2026 · Verified</span
+                ><span class="hn mono">↻ Tap to view certificate</span></span
+              ><span class="fb"
+                ><img
+                  src="images/cert-python-ai.jpg"
+                  alt="Python Using AI Workshop certificate" /></span
+            ></span>
+          </button>
+        </div>
+      </section>
+
+      <section class="sec" id="contact" data-lv="Mission Complete">
+        <div class="card ct rv">
+          <p class="mono ct-k">&lt;GET IN TOUCH /&gt;</p>
+          <h2><span class="grad">Contact</span></h2>
+          <p class="ct-s">
+            Have an idea, an opportunity or just want to say hi? I'd love to
+            hear from you.
+          </p>
+          <div class="cg">
+            <a class="cc" href="mailto:yashgurav016@gmail.com"
+              ><span class="ci"
+                ><svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path
+                    d="M4 4h16a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2z"
+                  />
+                  <path d="M22 6l-10 7L2 6" /></svg></span
+              ><span class="cl2">Email</span><b>yashgurav016@gmail.com</b
+              ><svg
+                class="ar"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path d="M7 17L17 7M8 7h9v9" /></svg
+            ></a>
+            <a
+              class="cc"
+              href="https://github.com/yashgurav016"
+              target="_blank"
+              rel="noopener"
+              ><span class="ci"
+                ><svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path
+                    d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"
+                  /></svg></span
+              ><span class="cl2">GitHub</span><b>github.com/yashgurav016</b
+              ><svg
+                class="ar"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path d="M7 17L17 7M8 7h9v9" /></svg
+            ></a>
+            <a
+              class="cc"
+              href="https://www.linkedin.com/in/yash-gurav-892763425"
+              target="_blank"
+              rel="noopener"
+              ><span class="ci"
+                ><svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path
+                    d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6zM2 9h4v12H2z"
+                  />
+                  <circle cx="4" cy="4" r="2" /></svg></span
+              ><span class="cl2">LinkedIn</span><b>Yash Gurav</b
+              ><svg
+                class="ar"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path d="M7 17L17 7M8 7h9v9" /></svg
+            ></a>
+          </div>
+          <a
+            class="btn p rs"
+            href="Yash_Gurav_Resume.pdf"
+            download="Yash_Gurav_Resume.pdf"
+            data-rv="dl"
+            ><svg
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <path d="M12 3v12m0 0l-4-4m4 4l4-4M4 17v3h16v-3" /></svg
+            >Download Resume</a
+          >
+          <p class="mono ct-l">Baramati, Pune · Maharashtra, India</p>
+        </div>
+      </section>
+    </main>
+    <footer>
+      © 2026 Yash Balasaheb Gurav · Built with HTML, CSS &amp; JavaScript
+    </footer>
+
+    <button id="top" type="button" aria-label="Back to top">↑</button>
+    <script src="js/script.js" defer></script>
+  </body>
+</html>
